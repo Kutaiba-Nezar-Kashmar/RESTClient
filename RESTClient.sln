@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoRUST2", "TodoRUST2\TodoRUST2.csproj", "{AD1B2181-7690-4965-81FC-74BFF404DED7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoTu", "TodoTu", "{507D4E4D-22B9-417D-B598-818166B78744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{61DF58E4-9806-4D93-92CD-FC3319752BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD1B2181-7690-4965-81FC-74BFF404DED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD1B2181-7690-4965-81FC-74BFF404DED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD1B2181-7690-4965-81FC-74BFF404DED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD1B2181-7690-4965-81FC-74BFF404DED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DF58E4-9806-4D93-92CD-FC3319752BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DF58E4-9806-4D93-92CD-FC3319752BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DF58E4-9806-4D93-92CD-FC3319752BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DF58E4-9806-4D93-92CD-FC3319752BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61DF58E4-9806-4D93-92CD-FC3319752BD7} = {507D4E4D-22B9-417D-B598-818166B78744}
 	EndGlobalSection
 EndGlobal
